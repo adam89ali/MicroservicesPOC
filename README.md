@@ -1,5 +1,5 @@
 # MicroservicesPOC
-
+This service is simple crud implementation and it has been designed with clean layered architecture.
 
 ### Catalog service set up
 
@@ -31,9 +31,9 @@
    - list collection
 
 
-    ls
-    mongo
-    show dbs
+    ls --> to see the directory
+    mongo --> to run mongo command
+    show dbs --> show databases
     use CatalogDb  --> for create db on mongo
     db.createCollection('Products')  --> for create people collection
 
