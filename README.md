@@ -129,6 +129,8 @@ This service is simple crud implementation and it has been designed with clean l
 
 ## Basket.API
 
+
+### Basket service set up
 1. Download docker container
 2. Download redis image from Docker Hub by following command:
    ```
@@ -138,10 +140,18 @@ This service is simple crud implementation and it has been designed with clean l
    ```
    Docker run -d -p 6379:6379 --name basket-redis redis
    ```
+   
   #### redis Commands
-  ```
-  1
-  -- Now we can open interactive terminal for redis
+ ```
+docker exec -it aspnetrun-redis /bin/bash
 
-  docker exec -it basket-redis /bin/bash
+redis-cli -- coonect to redis cli to run the command
+ping -- check status it will return pong
+
+set key value
+get key
+set name mehmet
+get name
+
+ ```
 
