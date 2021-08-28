@@ -126,3 +126,33 @@ This service is simple crud implementation and it has been designed with clean l
     show collections
     db.Products.find({}).pretty()
   ```
+
+## Basket.API
+
+This service is simple crud implementation and it has been designed with clean layered architecture.
+
+### Basket service set up
+1. Download docker container
+2. Download redis image from Docker Hub by following command:
+   ```
+   Docker pull redis
+   ```
+3. Start redis instance on Docker by following command:
+   ```
+   Docker run -d -p 6379:6379 --name basket-redis redis
+   ```
+   
+  #### redis Commands
+ ```
+docker exec -it basket-redis /bin/bash
+
+redis-cli -- coonect to redis cli to run the command
+ping -- check status it will return pong
+
+set key value
+get key
+set name mehmet
+get name
+
+ ```
+
