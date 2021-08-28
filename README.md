@@ -144,7 +144,7 @@ This service is simple crud implementation and it has been designed with clean l
    
   #### redis Commands
  ```
-docker exec -it aspnetrun-redis /bin/bash
+docker exec -it basket-redis /bin/bash
 
 redis-cli -- coonect to redis cli to run the command
 ping -- check status it will return pong
