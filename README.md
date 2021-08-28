@@ -129,6 +129,7 @@ This service is simple crud implementation and it has been designed with clean l
 
 ## Basket.API
 
+This service is simple crud implementation and it has been designed with clean layered architecture.
 
 ### Basket service set up
 1. Download docker container
