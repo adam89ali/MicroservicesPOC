@@ -160,3 +160,64 @@ get name
 
  ```
 
+## Discount.API
+
+This service is simple crud implementation and it has been designed with clean layered architecture.
+
+### Discount service set up
+1. Download docker container
+2. Download postgres image from Docker Hub by following command:
+   ```
+   Docker pull postgres
+   ```
+3. Start postgres instance on Docker by following command:
+   ```
+  
+   ```
+   
+  #### Postgres Commands
+  ```
+  -- Create Table with below script
+  
+  Tools - Query Tool
+
+	CREATE TABLE Coupon(
+		ID SERIAL PRIMARY KEY         NOT NULL,
+		ProductName     VARCHAR(24) NOT NULL,
+		Description     TEXT,
+		Amount          INT
+	);
+
+  -- I would like to use ProductName in this table, we can also call it ProductCode, you can use ProductId or something else. 
+  -- I am going to search with ProductName in this table, because our Basket microservices has ProductName.
+  -- we will retrieve coupons by productName.
+
+  -- After running query,
+  
+  See Tables - Refresh
+
+  Right click View/Edit Table with All Rows
+
+         SELECT * FROM public.coupon ORDER BY id ASC 
+
+  See empty
+
+	
+  -- let's adding some data for seeding table;
+
+	Insert Discount Data
+
+	INSERT INTO Coupon (ProductName, Description, Amount) VALUES ('IPhone X', 'IPhone Discount', 150);
+
+	INSERT INTO Coupon (ProductName, Description, Amount) VALUES ('Samsung 10', 'Samsung Discount', 100);
+
+
+   Run - F5
+
+   See Data
+
+   Right click View/Edit Table with All Rows
+
+	SELECT * FROM public.coupon ORDER BY id ASC 
+
+  ```
