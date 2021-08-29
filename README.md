@@ -160,3 +160,17 @@ get name
 
  ```
 
+## Discount.API
+
+This service is simple crud implementation and it has been designed with clean layered architecture.
+
+### Discount service set up
+1. Download docker container
+2. Download postgres image from Docker Hub by following command:
+   ```
+   Docker pull postgres
+   ```
+3. Start postgres instance on Docker by following command:
+   ```
+  
+   ```
