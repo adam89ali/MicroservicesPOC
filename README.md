@@ -221,3 +221,13 @@ This service is simple crud implementation and it has been designed with clean l
 	SELECT * FROM public.coupon ORDER BY id ASC 
 
   ```
+
+## Discount.Grpc (server)
+
+This Grpc service is simple crud implementation and it has been designed with clean layered architecture.
+
+### Discount Grpc service set up
+
+1. Create Grpc project on visual studio (grpc application provided by .NET)
+2. same configuration as discount.API
+  
