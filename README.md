@@ -222,7 +222,7 @@ This service is simple crud implementation and it has been designed with clean l
 
   ```
 
-## Discount.Grpc
+## Discount.Grpc (server)
 
 This Grpc service is simple crud implementation and it has been designed with clean layered architecture.
 
