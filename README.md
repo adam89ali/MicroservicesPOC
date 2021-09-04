@@ -56,7 +56,7 @@ docker system prune
 
 Close all dockers and run with below command on that location;
 
-	docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build
+	docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build   // used when we made changes in existing image and want to rebuild
 	or
 	docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 	docker-compose -f docker-compose.yml -f docker-compose.override.yml down
