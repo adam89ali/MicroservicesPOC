@@ -233,6 +233,6 @@ This Grpc service is simple crud implementation and it has been designed with cl
   
 
 ## Ordering API
-This service is simple crud implementation and it has been designed with clean layered architecture with CQRS and DDD.
-[Domain Driven Design](https://medium.com/aspnetrun/cqrs-and-event-sourcing-in-event-driven-architecture-of-ordering-microservices-fb67dc44da7a)
+This service is simple crud implementation and it has been designed with clean layered architecture with CQRS and DDD.  
+[Domain Driven Design](https://medium.com/aspnetrun/cqrs-and-event-sourcing-in-event-driven-architecture-of-ordering-microservices-fb67dc44da7a)  
 [Clean Architecture](https://medium.com/software-alchemy/a-brief-intro-to-clean-architecture-clean-ddd-and-cqrs-23243c3f31b3)
