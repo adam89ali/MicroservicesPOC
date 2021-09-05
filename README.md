@@ -231,3 +231,6 @@ This Grpc service is simple crud implementation and it has been designed with cl
 1. Create Grpc project on visual studio (grpc application provided by .NET)
 2. same configuration as discount.API
   
+
+## Ordering API
+This service is simple crud implementation and it has been designed with clean layered architecture with CQRS and DDD.
