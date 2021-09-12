@@ -8,6 +8,7 @@ using Microsoft.OpenApi.Models;
 using Basket.API.Repositories;
 using Basket.API.GrpcServices;
 using Discount.Grpc.Protos;
+using MassTransit;
 
 namespace Basket.API
 {
@@ -29,10 +30,19 @@ namespace Basket.API
                 options.Configuration = Configuration.GetValue<string>("CacheSettings:ConnectionString");
             });
             services.AddScoped<IBasketRepository, BasketRepository>();
+            services.AddAutoMapper(typeof(Startup));
             // Grpc Configuration
             services.AddGrpcClient<DiscountProtoservice.DiscountProtoserviceClient>
                 (o => o.Address = new Uri(Configuration["GrpcSettings:DiscountUrl"]));
             services.AddScoped<DiscountGrpcService>();
+
+            // MassTransit - RabbitMQ Configuration
+            services.AddMassTransit(config => {
+                config.UsingRabbitMq((ctx, cfg) => {
+                    cfg.Host(Configuration["EventBusSettings:HostAddress"]);
+                });
+            });
+            services.AddMassTransitHostedService();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

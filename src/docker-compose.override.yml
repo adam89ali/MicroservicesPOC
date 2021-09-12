@@ -35,6 +35,13 @@ services:
     restart: always
     ports:
         - "1434:1433"    # the reason I have choose 1434 becasue I have installed sql server locally as well due to which it will create conflict issues on 1433
+  
+  rabbitmq:
+    container_name: rabbitmq
+    restart: always
+    ports:
+        - "5672:5672"
+        - "15672:15672"
 
   pgadmin:
     container_name: pgadmin
