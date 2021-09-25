@@ -1,5 +1,10 @@
 # MicroservicesPOC
 
+this is the reference repo from where I have learned [link](https://github.com/aspnetrun/run-aspnetcore-microservices)  
+![Architecture](https://github.com/adam89ali/MicroservicesPOC/blob/main/ArchitectureDiagram.png?raw=true)
+![Architecture](https://github.com/adam89ali/MicroservicesPOC/blob/main/ArchitectureDiagram_BigPicture.png?raw=true)
+
+
 ## Docker Commands
 ```
 
@@ -244,3 +249,15 @@ This service has implemented gateway routing pattern and the entry point for the
 
 ## Shopping Aggregator 
 This service has implemented gateway aggregation pattern which takes single request and dispatches multiple calls to various backend systems and returns single aggregated result. The reason to umplement aggregatation pattern is to avoid latency and chaining calls between services problem.
+
+## Identity Microservices
+This service is not implemented yet in this solution but it will provide cross cutting concern related authentication & authorization service using OpenID connect & OAuth2 for other microservices.
+
+[Solution 1](https://github.com/aspnetrun/run-aspnet-identityserver4)  
+[Blog](https://medium.com/aspnetrun/securing-microservices-with-identityserver4-with-oauth2-and-openid-connect-fronted-by-ocelot-api-49ea44a0cf9e)  
+[Solution 2](https://github.com/Shop-Microservices/AspnetMicroservices)  
+[Solution 3](https://github.com/mansoorafzal/SecureMicroservices)  
+
+## Shopping Web Application (client)
+A ASP.NET Razor based client application which communicates with the API Gateway.
+
