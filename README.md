@@ -258,3 +258,6 @@ This service is not implemented yet in this solution but it will provide cross c
 [Solution 2](https://github.com/Shop-Microservices/AspnetMicroservices)  
 [Solution 3](https://github.com/mansoorafzal/SecureMicroservices)  
 
+## Shopping Web Application (client)
+A ASP.NET Razor based client application which communicates with the API Gateway.
+
