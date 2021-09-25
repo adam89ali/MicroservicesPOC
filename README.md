@@ -243,4 +243,4 @@ This service is simple crud implementation and it has been designed with clean l
 This service has implemented gateway routing pattern and the entry point for the client to communicate with internal microservices. In addition, it will have several features like rate limiting, caching so on.
 
 ## Shopping Aggregator 
-This service has implemented gateway aggregation patthern which takes single request and dispatches multiple calls to various backend systems and returns single aggregated result. The reason to umplement aggregatation pattern is to avoid latency and chaining calls between services problem.
+This service has implemented gateway aggregation pattern which takes single request and dispatches multiple calls to various backend systems and returns single aggregated result. The reason to umplement aggregatation pattern is to avoid latency and chaining calls between services problem.
