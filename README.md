@@ -1,5 +1,9 @@
 # MicroservicesPOC
 
+![Architecture](https://github.com/adam89ali/MicroservicesPOC/blob/main/ArchitectureDiagram.png?raw=true)
+![Architecture](https://github.com/adam89ali/MicroservicesPOC/blob/main/ArchitectureDiagram_BigPicture.png?raw=true)
+
+
 ## Docker Commands
 ```
 
