@@ -241,3 +241,6 @@ This service is simple crud implementation and it has been designed with clean l
 
 ## API Gateway (Ocelot)
 This service has the entry point for the client to communicate with internal microservices. In addition, it will have several features like rate limiting, caching so on.
+
+## Shopping Aggregator 
+This service has implemented gateway aggregation patthern which takes single request and dispatches multiple calls to various backend systems and returns single aggregated result.
