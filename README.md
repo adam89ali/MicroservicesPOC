@@ -252,8 +252,8 @@ This service has implemented gateway aggregation pattern which takes single requ
 ## Identity Microservices
 This service is not implemented yet in this solution but it will provide cross cutting concern related authentication & authorization service using OpenID connect & OAuth2 for other microservices.
 
-[GitHub Repo 1](https://github.com/aspnetrun/run-aspnet-identityserver4) 
-[Blog](https://medium.com/aspnetrun/securing-microservices-with-identityserver4-with-oauth2-and-openid-connect-fronted-by-ocelot-api-49ea44a0cf9e) 
-[GitHub Repo 2](https://github.com/Shop-Microservices/AspnetMicroservices) 
-[GitHub Repo 3](https://github.com/mansoorafzal/SecureMicroservices) 
+[Solution 1](https://github.com/aspnetrun/run-aspnet-identityserver4)  
+[Blog](https://medium.com/aspnetrun/securing-microservices-with-identityserver4-with-oauth2-and-openid-connect-fronted-by-ocelot-api-49ea44a0cf9e)  
+[Solution 2](https://github.com/Shop-Microservices/AspnetMicroservices)  
+[Solution 3](https://github.com/mansoorafzal/SecureMicroservices)  
 
